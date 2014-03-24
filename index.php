@@ -32,6 +32,11 @@ require("header.php");
 			</button>
 			</div>
 			<div class="col-xs-12">
+  		<button type="button" class="btn btn-default btn-lg my_button">
+			  <span class="icon"><img src="images/icon-dropbox.jpg"></span> Resume
+			</button>
+			</div>
+			<div class="col-xs-12">
 			<button type="button" class="btn btn-default btn-lg my_button">
 			  <span class="icon"><img src="images/icon-github-2.jpg"></span> therezajs
 			</button>
@@ -43,7 +48,7 @@ require("header.php");
 			</div>
 			<div class="col-xs-12">
   		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-twitter-2.jpg"></span> therezajs
+			  <span class="icon"><img src="images/icon-twitter-2.jpg"></span> @therezajs
 			</button>
 			</div>
 		</div>
@@ -58,8 +63,50 @@ require("header.php");
   	<a id="lastest_works"></a>
   	<h2>Latest works/</h2>
   	<div class="my_container">
-  	</div>
-  </div>
+  		<div class="row">
+        <h3 class="title">Rainbow Mural</h3>
+        <div class="col-md-1"></div>
+        <div class="col-md-5" >
+          <a href="http://www.rainbowmural.com" target="_blank" class="img_bg"><img src="images/rainbow_slider2.png"></a>
+          <div>
+            <a href="https://github.com/therezajs/rainbowmural" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
+          </div>
+        </div>
+        <div class="col-md-5" >
+          <p><br>Explore street art around the world.<br>Like your favorite photos and engage in conversations with other users.</p>
+          <p><strong>technologies</strong> PHP, MySQL, jQuery, Bootstrap, Flickr API, Google Maps API, and Heroku.</p>
+        </div>
+      </div>
+      <!-- <div class="row my_row">
+        <h3 class="title">Kiseki</h3>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <p><br>Facebook clone.<br>Post, find friends, send messages to other user and upload pictueres.</p>
+          <p><strong>technologies</strong> Rails, PostgreSQL, Bootstrap, Amazon S3, and Heroku</p>
+
+        </div>
+        <div class="col-md-5">
+          <a href="http://kisekinow.herokuapp.com" target="_blank" class="img_bg"><img src="images/kiseki_profile.png"></a>
+          <br>
+          <a href="https://github.com/therezajs/CodingDojo/tree/master/projects/Mixi" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
+        </div>
+      </div> -->
+      <div class="row">
+        <h3 class="title">Code the Games</h3>
+        <div class="col-md-1"></div>
+        <div class="col-xs-12 col-md-5">
+          <a href="http://codezegame.herokuapp.com" target="_blank" class="img_bg"><img src="images/zegame_index.png"></a>
+          <div>
+            <a href="https://github.com/therezajs/CodeTheGame" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <p><br>Play TicTacToe ot the sanke game.<br>Code is tested with rspec</p>
+          <p><strong>technologies</strong> Rails, Javascript, Rspec, Bootstrap, and Heroku.</p>
+        </div>
+      </div>
+    </div>
+   </div>
   <div id="page5">
   	<a id="mini_projects"></a>
   	<h2>Mini Projects/</h2>
