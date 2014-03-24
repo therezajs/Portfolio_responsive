@@ -25,5 +25,5 @@ require("header.php");
 
 </div><!-- /.container -->
 <?php
-require("header.php");
+require("footer.php");
 ?>

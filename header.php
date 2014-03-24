@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Custom styles for this template -->
