@@ -42,9 +42,11 @@
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li class="active"><a href="#home">Home</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#latest_works">Latest works</a></li>
+            <li><a href="#mini_projects">Mini projects</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
