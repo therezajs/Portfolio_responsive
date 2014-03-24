@@ -8,7 +8,7 @@ require("header.php");
       <h2>About me/</h2>
       <div class="row">
         <div class="col-xs-12 col-md-4">
-          <div style="text-align:right;">
+          <div style="text-align:center;">
             <img src="images/avatar.png" class="img-circle my_avatar">
           </div>
         </div>

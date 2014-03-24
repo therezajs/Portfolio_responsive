@@ -7,10 +7,12 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../assets/ico/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Portfolio Thereza Scherrer</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
@@ -36,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Thereza Scherrer</a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
