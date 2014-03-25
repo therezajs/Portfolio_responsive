@@ -85,24 +85,32 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a class="btn btn-success btn-lg" href="http://github.com/therezajs" target="_blank">
-            Github
-          </a>
+          <button type="button" class="btn btn-success btn-lg">
+            <a href="http://github.com/therezajs" target="_blank">
+              Github
+            </a>
+          </button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a class="btn btn-success btn-lg" href="http://www.linkedin.com/in/thereza" target="_blank">
-            LinkedIn
-          </a>
+          <button type="button" class="btn btn-success btn-lg">
+            <a href="http://www.linkedin.com/in/thereza" target="_blank">
+              LinkedIn
+            </a>
+          </button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a class="btn btn-success btn-lg" href="http://twitter.com/therezajs" target="_blank">
-            Twitter
-          </a>
+          <button type="button" class="btn btn-success btn-lg">
+            <a href="http://twitter.com/therezajs" target="_blank">
+              Twitter
+            </a>
+          </button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a class="btn btn-success btn-lg" href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank">
-            Resume
-          </a>
+          <button type="button" class="btn btn-success btn-lg">
+            <a href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank">
+              Resume
+            </a>
+          </button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg" href="http://therezajs.tumblr.com" target="_blank">
