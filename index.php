@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.2" />
   <style>
     body {
       font-family:
@@ -123,26 +123,26 @@
   <div id="portfolio">
     <div class="container">
       <div class="row">
-        <div class="col-md-1 col-xs-1"></div>
-        <div class="col-md-10 col-xs-10">
+        <div class="col-md-1 col-xs-0"></div>
+        <div class="col-md-10 col-xs-12">
           <a href="http://www.rainbowmural.com" target="_blank">
           <img
             style="width: 100%"
             src="images/rainbow_slider2.png" />
           </a>
         </div>
-        <div class="col-md-1 col-xs-1"></div>
+        <div class="col-md-1 col-xs-0"></div>
       </div>
       <div class="row">
-        <div class="col-md-1 col-xs-1"></div>
-        <div class="col-md-10 col-xs-10">
+        <div class="col-md-1 col-xs-0"></div>
+        <div class="col-md-10 col-xs-12">
           <a href="http://codezegame.herokuapp.com" target="_blank">
           <img
             style="width: 100%"
             src="images/zegame_index.png" />
           </a>
         </div>
-        <div class="col-md-1 col-xs-1"></div>
+        <div class="col-md-1 col-xs-0"></div>
       </div>
     </div>
   </div>
@@ -160,32 +160,32 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             Github
           </a>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             LinkedIn
           </a>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             Twitter
           </a>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             Resume
           </a>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             Blog
           </a>
         </div>
-        <div class="col-md-4 col-xs-6">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg">
             Email
           </a>
