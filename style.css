@@ -23,7 +23,8 @@
   margin-left: 15px;
 }
 #page1, #page2, #page3, #page4, #page5 {
-  margin-top: 70px;
+
+  padding-top: 70px;
 }
 h4 {
   text-align: center;

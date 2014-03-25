@@ -2,8 +2,8 @@
 require("header.php");
 ?>
 <div class="container">
+  <a id="home"></a>
   <div id="page1">
-  	<a id="home"></a>
   	<div class="my_container">
       <h2>About me/</h2>
       <div class="row">
@@ -22,18 +22,15 @@ require("header.php");
       </div>
     </div>
   </div>
-
+  <a id="skills"></a>
   <div id="page2">
-  <div class="container nu_container">
-    <a id="skills"></a>
     <h2>Skills/</h2>
     <div class="my_container">
       <h4>Ruby on Rails • PHP • MySQL • Javascript • jQuery • Github • Heroku • Amazon S3 • HTML 5 • CSS 3 • MySQL • Bash Terminal • Sublime Text 2</h4>
     </div>
   </div>
-  </div>
+  <a id="contact"></a>
   <div id="page3">
-  	<a id="contact"></a>
   	<h2>Contact/</h2>
   	<div class="my_container">
   		<div class="col-xs-12">
@@ -63,10 +60,8 @@ require("header.php");
 			</div>
 		</div>
   </div>
-
+  <a id="latest_works"></a>
   <div id="page4">
-  <div class="container nu_container">
-  	<a id="latest_works"></a>
   	<h2>Latest works/</h2>
   	<div class="my_container">
   		<div class="row">
@@ -112,7 +107,6 @@ require("header.php");
         </div>
       </div>
     </div>
-   </div>
    </div>
   <!-- <div id="page5">
   	<a id="mini_projects"></a>
