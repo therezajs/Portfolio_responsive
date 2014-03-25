@@ -112,11 +112,11 @@
             </a>
           </button>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <!-- <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg" href="http://therezajs.tumblr.com" target="_blank">
             Blog
           </a>
-        </div>
+        </div> -->
         <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg" href="mailto:therezascherrer@gmail.com">
             Email
