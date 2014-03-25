@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css" />
-  <meta name="viewport" content="width=640, initial-scale=1" />
+  <meta name="viewport" content="width=720, initial-scale=1" />
   <style>
     body {
       font-family:
