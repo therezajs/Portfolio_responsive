@@ -1,120 +1,202 @@
-<?php
-require("header.php");
-?>
-<div class="container">
-  <a id="home"></a>
-  <div id="page1">
-  	<div class="my_container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4">
-          <div style="text-align:center;">
-            <img src="images/avatar.png" class="img-circle my_avatar">
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <p style="text-align:left">Hello, I am Thereza. <br>
-          I am in love with programming ever since I stumbled upon codecademy last summer.<br>
-          My life has since taken a very unexpected turn. I left my career in humantities and I want to make a living from programming. <br>
-          I moved to San Francisco in October 2013 to attend a programming bootcamp, <a href="http://codingdojo.com/">Coding Dojo</a>.<br>
-          Bachelor of Arts in Japanese studies. RailsGirls and CodingDojo alumni.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a id="skills"></a>
-  <div id="page2">
-    <h2>Skills/</h2>
-    <div class="my_container">
-      <h4>Ruby on Rails • PHP • MySQL • Javascript • jQuery • Github • Heroku • Amazon S3 • HTML 5 • CSS 3 • MySQL • Bash Terminal • Sublime Text 2</h4>
-    </div>
-  </div>
-  <a id="contact"></a>
-  <div id="page3">
-  	<h2>Contact/</h2>
-  	<div class="my_container">
-  		<div class="col-xs-12">
-  		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-letter.png"></span><a href="mailto:therezascherrer@gmail.com"> therezascherrer@gmail.com</a>
-			</button>
-			</div>
-			<div class="col-xs-12">
-  		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-dropbox.jpg"></span><a href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank"> Resume</a>
-			</button>
-			</div>
-			<div class="col-xs-12">
-			<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-github-2.jpg"></span><a href="https://github.com/therezajs" target="_blank"> therezajs</a>
-			</button>
-			</div>
-			<div class="col-xs-12">
-			<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-linkedin.jpg"></span><a href="http://www.linkedin.com/in/thereza" target="_blank"> thereza</a>
-			</button>
-			</div>
-			<div class="col-xs-12">
-  		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-twitter-2.jpg"></span></span><a href="http://www.twitter.com/therezajs" target="_blank">  @therezajs</a>
-			</button>
-			</div>
-		</div>
-  </div>
-  <a id="latest_works"></a>
-  <div id="page4">
-  	<h2>Latest works/</h2>
-  	<div class="my_container">
-  		<div class="row">
-        <h3 class="title">Rainbow Mural</h3>
-        <div class="col-md-1"></div>
-        <div class="col-md-5" >
-          <a href="http://www.rainbowmural.com" target="_blank" class="img_bg"><img src="images/rainbow_slider2.png"></a>
-          <div>
-            <a href="https://github.com/therezajs/rainbowmural" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
-          </div>
-        </div>
-        <div class="col-md-5" >
-          <p><br>Explore street art around the world.<br>Like your favorite photos and engage in conversations with other users.</p>
-          <p><strong>technologies</strong> PHP, MySQL, jQuery, Bootstrap, Flickr API, Google Maps API, and Heroku.</p>
-        </div>
-      </div>
-      <!-- <div class="row my_row">
-        <h3 class="title">Kiseki</h3>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <p><br>Facebook clone.<br>Post, find friends, send messages to other user and upload pictueres.</p>
-          <p><strong>technologies</strong> Rails, PostgreSQL, Bootstrap, Amazon S3, and Heroku</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family:
+        'HelveticaNeue-Light',
+        'Helvetica Neue Light',
+        'Helvetica Neue',
+        Helvetica,
+        Arial;
+      color: #332b22;
+    }
+    .navbar {
+      background-color: #332b22;
+      color: #9acee5;
+    }
+    .navbar, .navbar-brand {
+      font-size: 24px;
+    }
+    #main {
+      background-color: #d6ebf1;
+      margin-top: 50px;
+      padding: 48px 0px 64px;
+      text-align: center;
+      font-size: 48px;
+    }
+    #skills {
+      background-color: #9acee5;
+      padding: 12px 0px 16px;
+    }
+    #skills .row {
+      margin: 0px 8px;
+    }
+    #skills .col-md-2 {
+      color: #06538e;
+      font-size: 28px;
+      text-align: center;
+      padding: 12px;
+    }
+    #portfolio .row {
+      margin: 48px 0px 72px;
+    }
+    #portfolio img {
+      box-shadow: 4px 4px 16px #808080;
+    }
+    #resume {
+      background-color: #d6ebf1;
+      padding: 24px 0px 36px;
+      text-align: center;
+    }
+    #resume .row {
+      margin: 0px 12px;
+    }
+    #resume a.btn {
+      width: 100%;
+      margin: 12px 0px 16px;
+      font-size: 24px;
+    }
+    #resume p {
+      font-size: 21px;
+      text-align: left;
+    }
+    #resume .summary {
+      margin-bottom: 24px;
+    }
+    #resume img {
+      margin-bottom: 36px;
+      width: 100%;
+      max-width: 180px;
+    }
+    footer {
+      background-color: #9acee5;
+      padding: 12px 0px 16px;
+      font-size: 16px;
+      text-align: center;
+    }
+    /*
 
+#332b22 24.5 % Black Magic (Brown)
+#b2a390 22.3 % Eagle (Green)
+#7f8384 11.4 % Grey (Grey)
+#d6ebf1 9.7 % Pattens Blue (Blue)
+#9acee5 9.0 % Cornflower (Blue)
+#836833 8.3 % McKenzie (Brown)
+#4e97c7 6.2 % Picton Blue (Blue)
+#594a29 4.5 % Bronze Olive (Brown)
+#06538e 2.2 % Dark Cerulean (Blue)
+#a48230 1.8 % Reef Gold (Green)
+    */
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-brand" style="width: 100%">
+          Thereza Scherrer's Portfolio
+          <div style="float: right;">履歴書</div>
         </div>
-        <div class="col-md-5">
-          <a href="http://kisekinow.herokuapp.com" target="_blank" class="img_bg"><img src="images/kiseki_profile.png"></a>
-          <br>
-          <a href="https://github.com/therezajs/CodingDojo/tree/master/projects/Mixi" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
-        </div>
-      </div> -->
+    </div>
+  </nav>
+  <div id="main">
+    <div class="container">
+      <div><b>I <span class="glyphicon">&hearts;</span> Coding</b></div>
+      <div><b>コーディング大好き</b></div>
+    </div>
+  </div>
+  <div id="skills">
+    <div class="container">
       <div class="row">
-        <h3 class="title">Code the Games</h3>
-        <div class="col-md-1"></div>
-        <div class="col-xs-12 col-md-5">
-          <a href="http://codezegame.herokuapp.com" target="_blank" class="img_bg"><img src="images/zegame_index.png"></a>
-          <div>
-            <a href="https://github.com/therezajs/CodeTheGame" target="_blank" class="height-sm"><span class="glyphicon glyphicon-hand-right"></span> source code</a>
-          </div>
+        <div class="col-md-2 col-xs-4">Rails</div>
+        <div class="col-md-2 col-xs-4">Javascript</div>
+        <div class="col-md-2 col-xs-4">PHP</div>
+        <div class="col-md-2 col-xs-4">MySQL</div>
+        <div class="col-md-2 col-xs-4">HTML</div>
+        <div class="col-md-2 col-xs-4">CSS</div>
+      </div>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1 col-xs-1"></div>
+        <div class="col-md-10 col-xs-10">
+          <a href="http://www.rainbowmural.com" target="_blank">
+          <img
+            style="width: 100%"
+            src="images/rainbow_slider2.png" />
+          </a>
         </div>
-        <div class="col-xs-12 col-md-5">
-          <p><br>Play TicTacToe ot the sanke game.<br>Code is tested with rspec</p>
-          <p><strong>technologies</strong> Rails, Javascript, Rspec, Bootstrap, and Heroku.</p>
+        <div class="col-md-1 col-xs-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 col-xs-1"></div>
+        <div class="col-md-10 col-xs-10">
+          <a href="http://codezegame.herokuapp.com" target="_blank">
+          <img
+            style="width: 100%"
+            src="images/zegame_index.png" />
+          </a>
+        </div>
+        <div class="col-md-1 col-xs-1"></div>
+      </div>
+    </div>
+  </div>
+  <div id="resume">
+    <div class="container">
+      <div class="row summary">
+        <div class="col-md-3 col-xs-4">
+          <img
+            class="img-circle"
+            src="images/avatar.png" />
+        </div>
+        <div class="col-md-9 col-xs-8">
+        <p>
+          Konnichiwa, I am Thereza. Lorem ipsum dolor sit amet. Hire me. Hire me. Hire me. Your business so much needs me. Lorem and ipsum and dolor and sit all agree in this. Even amet agrees.
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            Github
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            LinkedIn
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            Twitter
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            Resume
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            Blog
+          </a>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <a class="btn btn-success btn-lg">
+            Email
+          </a>
         </div>
       </div>
     </div>
-   </div>
-  <!-- <div id="page5">
-  	<a id="mini_projects"></a>
-  	<h2>Mini Projects/</h2>
-  	<div class="my_container">
-  	</div>
   </div>
- -->
-</div><!-- /.container -->
-<?php
-require("footer.php");
-?>
+  <footer>
+    <div class="container">
+      Made with Love by Thereza, 2014
+    </div>
+  </footer>
+</body>
+</html>
