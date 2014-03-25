@@ -5,7 +5,6 @@ require("header.php");
   <a id="home"></a>
   <div id="page1">
   	<div class="my_container">
-      <h2>About me/</h2>
       <div class="row">
         <div class="col-xs-12 col-md-4">
           <div style="text-align:center;">
