@@ -58,7 +58,7 @@
     #resume a.btn {
       width: 100%;
       margin: 12px 0px 16px;
-      font-size: 24px;
+      font-size: 150%;
     }
     #resume p {
       font-size: 21px;
