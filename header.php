@@ -25,6 +25,9 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -38,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Thereza Scherrer</a>
+          <a class="navbar-brand" href="#">THEREZA SCHERRER</a>
         </div>
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -46,7 +49,7 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#latest_works">Latest works</a></li>
-            <li><a href="#mini_projects">Mini projects</a></li>
+            <!-- <li><a href="#mini_projects">Mini projects</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>

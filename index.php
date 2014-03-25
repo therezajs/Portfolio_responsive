@@ -22,45 +22,51 @@ require("header.php");
       </div>
     </div>
   </div>
+
   <div id="page2">
+  <div class="container nu_container">
+    <a id="skills"></a>
+    <h2>Skills/</h2>
+    <div class="my_container">
+      <h4>Ruby on Rails • PHP • MySQL • Javascript • jQuery • Github • Heroku • Amazon S3 • HTML 5 • CSS 3 • MySQL • Bash Terminal • Sublime Text 2</h4>
+    </div>
+  </div>
+  </div>
+  <div id="page3">
   	<a id="contact"></a>
   	<h2>Contact/</h2>
   	<div class="my_container">
   		<div class="col-xs-12">
   		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-letter.png"></span> therezascherrer@gmail.com
+			  <span class="icon"><img src="images/icon-letter.png"></span><a href="mailto:therezascherrer@gmail.com"> therezascherrer@gmail.com</a>
 			</button>
 			</div>
 			<div class="col-xs-12">
   		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-dropbox.jpg"></span> Resume
+			  <span class="icon"><img src="images/icon-dropbox.jpg"></span><a href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank"> Resume</a>
 			</button>
 			</div>
 			<div class="col-xs-12">
 			<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-github-2.jpg"></span> therezajs
+			  <span class="icon"><img src="images/icon-github-2.jpg"></span><a href="https://github.com/therezajs" target="_blank"> therezajs</a>
 			</button>
 			</div>
 			<div class="col-xs-12">
 			<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-linkedin.jpg"></span> thereza
+			  <span class="icon"><img src="images/icon-linkedin.jpg"></span><a href="http://www.linkedin.com/in/thereza" target="_blank"> thereza</a>
 			</button>
 			</div>
 			<div class="col-xs-12">
   		<button type="button" class="btn btn-default btn-lg my_button">
-			  <span class="icon"><img src="images/icon-twitter-2.jpg"></span> @therezajs
+			  <span class="icon"><img src="images/icon-twitter-2.jpg"></span></span><a href="http://www.twitter.com/therezajs" target="_blank">  @therezajs</a>
 			</button>
 			</div>
 		</div>
   </div>
-  <div id="page3">
-  	<a id="skills"></a>
-  	<h2>Skills/</h2>
-  	<div class="my_container">
-  	</div>
-  </div>
+
   <div id="page4">
-  	<a id="lastest_works"></a>
+  <div class="container nu_container">
+  	<a id="latest_works"></a>
   	<h2>Latest works/</h2>
   	<div class="my_container">
   		<div class="row">
@@ -107,13 +113,14 @@ require("header.php");
       </div>
     </div>
    </div>
-  <div id="page5">
+   </div>
+  <!-- <div id="page5">
   	<a id="mini_projects"></a>
   	<h2>Mini Projects/</h2>
   	<div class="my_container">
   	</div>
   </div>
-
+ -->
 </div><!-- /.container -->
 <?php
 require("footer.php");

@@ -1,5 +1,5 @@
 .my_container {
-	margin-top: 70px;
+	/*margin-top: 70px;*/
 }
 .icon {
   position: relative;
@@ -18,4 +18,21 @@
 }
 .img_bg img {
   width: 100%;
+}
+.title {
+  margin-left: 15px;
+}
+#page1, #page2, #page3, #page4, #page5 {
+  margin-top: 70px;
+}
+h4 {
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  font-family: "Roboto Slab", "Helvetica Neue", Courier;
+  text-align: center;
+}
+h1,h2,h3,h4 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
 }
