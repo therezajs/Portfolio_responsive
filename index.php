@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=0.6" />
-
-</head>
-<body>
-  <nav class="navbar navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-brand" style="width: 100%">
-          Thereza Scherrer's Portfolio
-          <div style="float: right;">履歴書</div>
-        </div>
-    </div>
-  </nav>
+<?php
+require("header.php");
+?>
   <div id="main">
     <div class="container">
       <div><b>I <span class="glyphicon">&hearts;</span> Coding</b></div>
@@ -42,7 +27,7 @@
           <a href="http://www.rainbowmural.com" target="_blank">
           <img
             style="width: 100%"
-            src="images/rainbow_slider2.png" />
+            src="assets/images/rainbow_slider2.png" />
           </a>
         </div>
         <div class="col-md-1 col-xs-0"></div>
@@ -53,7 +38,7 @@
           <a href="http://codezegame.herokuapp.com" target="_blank">
           <img
             style="width: 100%"
-            src="images/zegame_index.png" />
+            src="assets/images/zegame_index.png" />
           </a>
         </div>
         <div class="col-md-1 col-xs-0"></div>
@@ -66,7 +51,7 @@
         <div class="col-md-3 col-xs-4">
           <img
             class="img-circle"
-            src="images/avatar.png" />
+            src="assets/images/avatar.png" />
         </div>
         <div class="col-md-9 col-xs-8">
         <p>
@@ -125,10 +110,6 @@
       </div>
     </div>
   </div>
-  <footer>
-    <div class="container">
-      Made with Love by Thereza, 2014
-    </div>
-  </footer>
-</body>
-</html>
+  <?php
+  require("footer.php");
+  ?>
