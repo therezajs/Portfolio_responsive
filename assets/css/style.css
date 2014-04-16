@@ -62,7 +62,8 @@ body {
   text-align: left;
 }
 #resume .summary {
-  margin-bottom: 24px;
+  margin-bottom: 36px;
+  margin-top: 20px;
 }
 #resume img {
   margin-bottom: 36px;

@@ -58,17 +58,28 @@ require("header.php");
           Konnichiwa, I am Thereza.
         </p>
         <p>
-          I'm looking for a job as a web developer.
+          Are you looking for a web developer? You're in the right place!
         </p>
         <p>
-          I graduated with a major in Japanese studies and moved to San Francisco in October 2013 to attend a programming bootcamp, <a href="http://codingdojo.com/">Coding Dojo</a>.
+          I am passionate about technology and
+          have a strong background in web development and
+          international work experience in Europe, Asia and America.
+          I graduated from <a href="http://codingdojo.com/">Coding Dojo</a> last year and
+          have since worked as a full-stack web developer (Rails, PHP, MySQL).
         </p>
         <p>
-          I love to code, solve challenges and create new apps.
+          I am looking for full-time positions in San Francisco or Switzerland/Berlin.
         </p>
         </div>
       </div>
       <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <button type="button" class="btn btn-success btn-lg">
+            <a href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank">
+              Resume
+            </a>
+          </button>
+        </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <button type="button" class="btn btn-success btn-lg">
             <a href="http://github.com/therezajs" target="_blank">
@@ -84,24 +95,15 @@ require("header.php");
           </button>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-success btn-lg">
-            <a href="http://twitter.com/therezajs" target="_blank">
-              Twitter
-            </a>
-          </button>
+          <a class="btn btn-success btn-lg" href="http://www.xing.com/profile/Theres_Scherrer" target="_blank">
+            Xing
+          </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <button type="button" class="btn btn-success btn-lg">
-            <a href="https://www.dropbox.com/s/ety8jcibl3829jh/resume-thereza.pdf" target="_blank">
-              Resume
-            </a>
-          </button>
-        </div>
-        <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-          <a class="btn btn-success btn-lg" href="http://therezajs.tumblr.com" target="_blank">
-            Blog
+          <a class="btn btn-success btn-lg" href="http://twitter.com/therezajs" target="_blank">
+            Twitter
           </a>
-        </div> -->
+        </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
           <a class="btn btn-success btn-lg" href="mailto:therezascherrer@gmail.com">
             Email
