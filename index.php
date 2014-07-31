@@ -68,7 +68,8 @@ require("header.php");
           have since worked as a full-stack web developer (Rails, PHP, MySQL).
         </p>
         <p>
-          I am looking for full-time positions in San Francisco or Switzerland/Berlin.
+          <!-- I am looking for full-time positions in San Francisco or Switzerland/Berlin. -->
+          I just started working at Liip in Zurich, Switzerland. I was an intern at Eat24 in San Francisco.
         </p>
         </div>
       </div>
